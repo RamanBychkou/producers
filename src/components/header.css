@@ -1,0 +1,61 @@
+
+header{
+	width: 100%;
+	min-height: 20vh;
+	background-color: #018dc8;
+  }
+  .wrapper{
+	  max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 5%;
+  
+  }
+  .headline{
+	position: relative;
+	height: 10vh;
+	line-height: 10vh;
+	font-size: 2rem;
+	text-align: center;
+	color: rgb(233, 232, 232);
+	border-bottom: solid 1px rgba(255,255,255,0.15);
+  }
+  .headline h1{
+	padding-top: 2vh;
+  }
+  .headline select{
+	position: absolute;
+	top: 2vh;
+	right: 0vw;
+	color: #0075a6;
+  }
+  .menu{
+	  display: flex;
+	  max-height: 90px;
+	  justify-content: space-between;
+  }
+  nav{
+	display: flex;
+	justify-content: right;
+	flex-basis: 635px;
+	padding-right: 3vw;
+	  font-size: 16px;
+	line-height: 89px;
+  }
+  nav div{
+	  text-align: center;
+  }
+  nav div:not(:last-of-type){
+	  margin-right: 65px;
+  }
+  nav div:first-of-type{
+	  margin-right: 64px;
+  }
+  nav div:hover a{
+	  color: rgba(255,255,255,1);
+  }
+  nav a{
+	  text-decoration: none;
+	color: rgb(200, 200, 200);
+	font-size: 1.15rem;
+	  font-family: Lato;
+  }
